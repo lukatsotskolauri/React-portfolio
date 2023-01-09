@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="text-white h-screen w-full bg-gradient-to-b  from-black via-black to-gray-800 "
+      className="text-white h-screen w-full bg-gradient-to-b  from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-2/5 w-5/6 sm:w-4/5">
-          <h2 className="text-4xl md:text-7xl font-bold text-white">
+        <div className="flex flex-col justify-center pt-10 w-5/6 sm:w-4/5">
+          <h2 className="text-3xl md:text-7xl font-bold text-white">
             I'm a Front End Developer
           </h2>
           <p className=" text-gray-500 my-4 max-w-md ">
@@ -29,7 +29,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt=""
-            className=" rounded-2xl mx-auto w-4/5 md:w-full sm:w-3/5"
+            className=" rounded-2xl pt-6 mx-auto w-9/12 md:w-full sm:w-3/5"
           />
         </div>
       </div>

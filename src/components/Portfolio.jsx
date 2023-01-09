@@ -1,47 +1,29 @@
 import React from "react";
-import arryDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import instalNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import Portfolioo from "../assets/portfolio/Portfolio-img.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import amen from '../assets/portfolio/amenn.jpg'
+import tbilisi from '../assets/portfolio/tbilisi.png'
+import baker from '../assets/portfolio/baker.jpg'
+
 const Portfolio = () => {
   let portfolio = [
     {
       id: 1,
-      src: arryDestruct,
-      demo: "",
-      code:""
+      src: amen,
+      demo: "https://symphonious-sherbet-f00d74.netlify.app/",
+      code:"https://github.com/lukatsotskolauri/Amen"
     },
     {
       id: 2,
-      src: instalNode,
-      demo: "",
-      code:""
+      src: tbilisi,
+      demo: "https://precious-biscochitos-18546a.netlify.app/",
+      code:"https://github.com/lukatsotskolauri/Tpilisi"
     },
     {
       id: 3,
-      src: navbar,
-      demo: "",
-      code:""
+      src: baker,
+      demo: "https://gregarious-dragon-070f57.netlify.app",
+      code:"https://github.com/lukatsotskolauri/Bakers"
     },
-    {
-      id: 4,
-      src: Portfolioo,
-      demo: "",
-      code:""
-    },
-    {
-      id: 5,
-      src: reactWeather,
-      demo: "",
-      code:""
-    },
-    {
-      id: 6,
-      src: Portfolioo,
-      demo: "",
-      code:""
-    },
+    
   ];
 
   return (
@@ -63,7 +45,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className=" rounded-md duration-200 hover:scale-105 h-4/6 w-full"
+                className=" rounded-md duration-200 hover:scale-105 h-4/6 w-full "
               />
               <div className=" flex items-center justify-center">
                   <a href={demo} target="_blank" rel="noopener noreferrer " className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center" >Demo</a> 
