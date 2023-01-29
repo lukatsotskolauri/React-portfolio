@@ -1,6 +1,5 @@
 import React from "react";
 import amen from '../assets/portfolio/amenn.jpg'
-import tbilisi from '../assets/portfolio/tbilisi.png'
 import baker from '../assets/portfolio/baker.jpg'
 
 const Portfolio = () => {
@@ -10,12 +9,6 @@ const Portfolio = () => {
       src: amen,
       demo: "https://symphonious-sherbet-f00d74.netlify.app/",
       code:"https://github.com/lukatsotskolauri/Amen"
-    },
-    {
-      id: 2,
-      src: tbilisi,
-      demo: "https://precious-biscochitos-18546a.netlify.app/",
-      code:"https://github.com/lukatsotskolauri/Tpilisi"
     },
     {
       id: 3,
