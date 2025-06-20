@@ -1,7 +1,7 @@
 import React from "react";
-import HeroImage from "../assets/luka.jpg";
+import HeroImage from "../assets/luka.png";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
 const Home = () => {
   return (
     <div

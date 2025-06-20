@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className=" text-xl mt-20">
-          My name is Luka, originally from Georgia, currently I’m 16 years old,
+          My name is Luka, originally from Georgia, currently I’m 19 years old,
           right now I’m learning React and Tailwind at the same time and this
           Portfolio is build with using both tools, so what’s the purpose of me
           doing this portfolio now? Simple! I want to get hired and get as much
